@@ -1,0 +1,87 @@
+.navbar-brand {
+    font-family: Lobster;
+    font-size: 24px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+hr {
+    margin: 20px auto 20px;
+    padding: 0;
+    max-width: 400px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+nav ul button a {
+    color: grey;
+}
+
+nav ul button a:hover {
+    color: black;
+}
+
+#about {
+    color: white;
+    margin-top: -20px;
+    background-color: #670000;
+    font-family: Monaco, MonoSpace;
+    padding: 25px;
+}
+
+#about p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 12px;
+    color: white;
+}
+
+#about img {
+    margin: 10px;
+    max-width: 75%;
+    height: auto;
+}
+
+#portfolio {
+    background-color: white;
+    font-family: Monaco, MonoSpace;
+    padding: 25px;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+#contact {
+    background-color: #a06161;
+    font-family: Monaco, MonoSpace;
+    padding: 25px;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+}
