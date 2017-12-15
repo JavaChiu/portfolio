@@ -1,21 +1,17 @@
 <?php
-/*
-$to      = 'chungan@uchicago.edu';
-$email = $_POST['email'];
-$subject = $_POST['title'];
-$message = $_POST['message'];
-$headers = 'From: ' . $email . "\r\n" .
-    'Reply-To: chungan@uchicago.edu' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+require 'vendor/autoload.php';
 
-mail($to, $subject, $message, $headers);
-*/
+$from = new SendGrid\Email(null, "test@example.com");
+$subject = "Hello World from the SendGrid PHP Library!";
+$to = new SendGrid\Email(null, "chungan@uchicago.edu");
+$content = new SendGrid\Content("text/plain", "Hello, Email!");
+$mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-$to = "chungan@uchicago.edu";
-$subject = "My subject";
-$txt = "Hello world!";
-$headers = "From: webmaster@example.com" . "\r\n" .
-"CC: somebodyelse@example.com";
+$apiKey = getenv('SENDGRID_API_KEY');
+$sg = new \SendGrid($apiKey);
 
-mail($to,$subject,$txt,$headers);
+$response = $sg->client->mail()->send()->post($mail);
+echo $response->statusCode();
+echo $response->headers();
+echo $response->body();
 ?> 
