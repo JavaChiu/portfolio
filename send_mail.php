@@ -42,20 +42,17 @@ $sg = new \SendGrid($apiKey);
 
 //$response = $sg->client->mail()->send()->post($mail);
 
-echo 'before response';
-
 $response = '400';
 
-echo 'before if';
-
+/*
 if(($response->statusCode())=='200'||($response->statusCode())=='202'){
   echo 'true';
   $isSuccess = TRUE;
   $message = "Success! I will response to you soon!";
   echo 'end true';
 }else{
+*/
   echo 'false';
-/*
   $isSuccess = FALSE;
   $message = "Sorry it failed. Could you send it again using your own mail application, please?";
   $myfile = fopen("send_grid.log", "a+") or die("Unable to open file!");
@@ -68,12 +65,12 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
   $txt = "Body: ".$response->headers()."\n";
   fwrite($myfile, $txt);
   fclose($myfile);
-*/
+
     echo 'end false';
-}
+//}
 
-echo 'before include';
+//echo 'before include';
 
-//include 'index.php';
+include 'index.php';
 
 ?> 
