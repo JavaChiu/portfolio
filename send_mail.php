@@ -17,7 +17,7 @@ require 'vendor/autoload.php';
 $email = $_POST['email'];
 $subject = $_POST['title'];
 $message = $_POST['message'];
-$name = $_POST['first-name'].' '.$_POST['last-name'];
+$name = $_POST['first-name']." ".$_POST['last-name'];
 
 /*
 echo $email.'<br>';
