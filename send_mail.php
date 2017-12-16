@@ -48,7 +48,7 @@ $response = '400';
 
 echo 'before if';
 
-if($response->statusCode()=='200'||$response->statusCode()=='202'){
+if(($response->statusCode())=='200'||($response->statusCode())=='202'){
   $isSuccess = TRUE;
   $message = "Success! I will response to you soon!";
 }else{
