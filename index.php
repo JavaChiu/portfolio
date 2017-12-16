@@ -128,7 +128,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="btn btn-social-icon btn-github" target="_blank">
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/JavaChiu" target="_blank">
                         <span class="fa fa-github"></span>
                     </a>
                 </li>
