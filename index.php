@@ -43,6 +43,7 @@
     <div id="about" class="row text-center">
 <?php
   if(!empty($message)){
+/*
     if($isSuccess){
       echo '<div class="alert alert-success alert-dismissable">';
     }else{
@@ -51,6 +52,7 @@
     echo '<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>';
     echo $message;
     echo '</div>';
+*/
   }
 ?>
         <div class="col-md-4 pull-right">
