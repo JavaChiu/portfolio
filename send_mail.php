@@ -49,9 +49,12 @@ $response = '400';
 echo 'before if';
 
 if(($response->statusCode())=='200'||($response->statusCode())=='202'){
+  echo 'true';
   $isSuccess = TRUE;
   $message = "Success! I will response to you soon!";
+  echo 'end true';
 }else{
+  echo 'false';
 /*
   $isSuccess = FALSE;
   $message = "Sorry it failed. Could you send it again using your own mail application, please?";
@@ -66,6 +69,7 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
   fwrite($myfile, $txt);
   fclose($myfile);
 */
+    echo 'end false';
 }
 
 echo 'before include';
