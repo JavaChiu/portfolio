@@ -18,10 +18,8 @@ $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
 
 if(($response->statusCode())=='200'||($response->statusCode())=='202'){
-  echo 'true';
   $isSuccess = TRUE;
   $message = "Success! I will response to you soon!";
-  echo 'end true';
 }else{
   $isSuccess = FALSE;
   $message = "Sorry it failed. Could you send it again using your own mail application, please?";
