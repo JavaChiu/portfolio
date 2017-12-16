@@ -51,7 +51,7 @@
       echo '<div class="alert alert-danger alert-dismissable">';
     }
     echo '<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>';
-    echo $message;
+    echo $_SESSION['message'];
     echo '</div>';
   }
   unset($_SESSION['message']);
