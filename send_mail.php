@@ -19,10 +19,12 @@ $subject = $_POST['title'];
 $message = $_POST['message'];
 $name = $_POST['first-name'].' '.$_POST['last-name'];
 
+/*
 echo $email.'<br>';
 echo $subject.'<br>';
 echo $message.'<br>';
 echo $name.'<br>';
+*/
 
 $from = new SendGrid\Email($name, $email);
 $to = new SendGrid\Email(null, "chungan@uchicago.edu");
