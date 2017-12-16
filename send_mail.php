@@ -31,10 +31,14 @@ $to = new SendGrid\Email(null, "chungan@uchicago.edu");
 $content = new SendGrid\Content("text/plain", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-echo $from.'<br>';
-echo $to.'<br>';
-echo $content.'<br>';
-echo $subject.'<br>';
+echo $from;
+echo '<br>';
+echo $to;
+echo '<br>';
+echo $content;
+echo '<br>';
+echo $subject;
+echo '<br>';
 
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
