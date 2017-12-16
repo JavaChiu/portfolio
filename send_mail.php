@@ -20,6 +20,9 @@ $message = $_POST['message'];
 $name = $_POST['first-name']." ".$_POST['last-name'];
 
 echo $email;
+echo $subject;
+echo $message;
+echo $name;
 
 /*
 echo $email.'<br>';
