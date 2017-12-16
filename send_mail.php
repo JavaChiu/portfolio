@@ -48,9 +48,9 @@ if($response->statusCode()=='200'||$response->statusCode()=='202'){
   $isSuccess = TRUE;
   $message = "Success! I will response to you soon!";
 }else{
+/*
   $isSuccess = FALSE;
   $message = "Sorry it failed. Could you send it again using your own mail application, please?";
-/*
   $myfile = fopen("send_grid.log", "a+") or die("Unable to open file!");
   $date = date("Y-m-d")."\n";
   fwrite($myfile, $txt);
