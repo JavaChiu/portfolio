@@ -18,6 +18,7 @@ $email = $_POST['email'];
 $subject = $_POST['title'];
 $message = $_POST['message'];
 $name = $_POST['first-name']." ".$_POST['last-name'];
+print_r($_POST);
 
 echo $email;
 echo $subject;
