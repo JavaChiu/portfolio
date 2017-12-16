@@ -48,11 +48,9 @@
     }else{
       echo "<div class=\"alert alert-danger alert-dismissable\">";
     }
-/*
     echo "<a href=\"#\" class="close" data-dismiss="alert" aria-label="close">×</a>";
     echo $message;
     echo "</div>";
-*/
   }
 ?>
         <div class="col-md-4 pull-right">
