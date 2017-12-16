@@ -15,10 +15,11 @@ mail($to, $subject, $message, $headers);
 $email = $_POST['email'];
 $subject = $_POST['title'];
 $message = $_POST['message'];
+$name = $_POST['first-name'].$_POST['last-name'];
 
 require 'vendor/autoload.php';
 
-$from = new SendGrid\Email(null, $email);
+$from = new SendGrid\Email($name, $email);
 $to = new SendGrid\Email(null, "chungan@uchicago.edu");
 $content = new SendGrid\Content("text/plain", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
