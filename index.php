@@ -79,7 +79,7 @@
         <form class="row" action="/send_mail.php" method="post">
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="title">Title</label>
-                <input type="title" class="form-control" id="title" placeholder="Title">
+                <input type="text" class="form-control" id="title" placeholder="Title">
             </div>
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="email">Email address</label>
