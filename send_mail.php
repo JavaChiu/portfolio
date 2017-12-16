@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 require 'vendor/autoload.php';
 
@@ -18,11 +19,11 @@ $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
 
 if(($response->statusCode())=='200'||($response->statusCode())=='202'){
-  $isSuccess = TRUE;
-  $message = "Success! I will response to you soon!";
+  $_SESSION['is_success'] = TRUE;
+  $_SESSION['message'] = "Success! I will response to you soon!";
 }else{
-  $isSuccess = FALSE;
-  $message = "Sorry it failed. Could you send it again using your own mail application, please?";
+  $_SESSION['is_success'] = FALSE;
+  $_SESSION['message'] = "Sorry it failed. Could you send it again using your own mail application, please?";
 /*
   echo 'false';
   $myfile = fopen("send_grid.log", "a+") or die("Unable to open file!");
@@ -39,6 +40,7 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
 */
 }
 
-include 'index.php';
+$index = 'https://powerful-atoll-43424.herokuapp.com/';
+die();
 
 ?> 
