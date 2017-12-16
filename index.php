@@ -3,6 +3,7 @@
 
 <head>
     <title>Chung An Chiu</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" />
