@@ -52,10 +52,10 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
   echo 'end true';
 }else{
 */
-  echo 'false';
   $isSuccess = FALSE;
   $message = "Sorry it failed. Could you send it again using your own mail application, please?";
 /*
+  echo 'false';
   $myfile = fopen("send_grid.log", "a+") or die("Unable to open file!");
   $date = date("Y-m-d")."\n";
   fwrite($myfile, $txt);
@@ -66,8 +66,8 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
   $txt = "Body: ".$response->headers()."\n";
   fwrite($myfile, $txt);
   fclose($myfile);
-*/
   echo 'end false';
+*/
 //}
 
 //echo 'before include';
