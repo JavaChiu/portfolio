@@ -42,7 +42,11 @@ $sg = new \SendGrid($apiKey);
 
 //$response = $sg->client->mail()->send()->post($mail);
 
+echo 'before response';
+
 $response = '400';
+
+echo 'before if';
 
 if($response->statusCode()=='200'||$response->statusCode()=='202'){
   $isSuccess = TRUE;
@@ -64,6 +68,8 @@ if($response->statusCode()=='200'||$response->statusCode()=='202'){
 */
 }
 
-include 'index.php';
+echo 'before include';
+
+//include 'index.php';
 
 ?> 
