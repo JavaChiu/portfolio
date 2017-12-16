@@ -40,6 +40,7 @@ echo '<br>';
 echo $subject;
 echo '<br>';
 
+/*
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
 
@@ -49,4 +50,5 @@ echo '<br>';
 echo $response->headers();
 echo '<br>';
 echo $response->body();
+*/
 ?> 
