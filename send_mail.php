@@ -40,12 +40,28 @@ echo "<br>";
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
 
-$response = $sg->client->mail()->send()->post($mail);
+//$response = $sg->client->mail()->send()->post($mail);
 
-echo $response->statusCode();
-echo '<br>';
-echo $response->headers();
-echo '<br>';
-echo $response->body();
+$response = '400';
+
+if($response->statusCode()=='200'||$response->statusCode()=='202'){
+  $isSuccess = TRUE;
+  $message = "Success! I will response to you soon!";
+}else{
+  $isSuccess = FALSE;
+  $message = "Sorry it failed. Could you send it again using your own mail application, please?";
+  $myfile = fopen("send_grid.log", "a+") or die("Unable to open file!");
+  $date = date("Y-m-d")."\n";
+  fwrite($myfile, $txt);
+  $txt = "Status code: ".$response->statusCode()."\n";
+  fwrite($myfile, $txt);
+  $txt = "Headers: ".$response->headers()."\n";
+  fwrite($myfile, $txt);
+  $txt = "Body: ".$response->headers()."\n";
+  fwrite($myfile, $txt);
+  fclose($myfile);
+}
+
+include 'index.php';
 
 ?> 

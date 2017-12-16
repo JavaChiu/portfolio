@@ -41,13 +41,25 @@
     </nav>
 
     <div id="about" class="row text-center">
+<?php
+  if(!empty($message)){
+    if($isSuccess){
+    echo "<div class=\"alert alert-success alert-dismissable\">";
+    }else{
+    echo "<div class=\"alert alert-danger alert-dismissable\">";
+    }
+    echo "<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>";
+    echo "<strong>Warning!</strong> This alert box could indicate a warning that might need attention.";
+    echo "</div>";
+  }
+?>
         <div class="col-md-4 pull-right">
             <img class="img-fluid img-rounded" src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/62446_546259315414512_1579918889_n.jpg?oh=6d11dedafd8b45f6083319d4dd4b918f&oe=5A8E5F53" alt="profile-picture">
         </div>
         <div>
             <h2><strong>About</strong></h2>
             <hr>
-            <p>After joining the workforce for 2 years as a software engineer, I decided to persue a formal master's degree in Computer Science at the University of Chicago, hoping this is leading my life to a rather more challenging journey.</p>
+            <p>After joining the workforce for 2 years as a software engineer, I decided to pursue a formal master's degree in Computer Science at the University of Chicago, hoping this is leading my life to a rather more challenging journey.</p>
             <p>Born and raised in Taipei, Taiwan, I completed my bachelor at National Taiwan University. As a student in the discipline of Entomology(Insect), who later on launched a career in coding, I always tell people that I am a <em>professional bug-dealer</em>.</p>
         </div>
     </div>
