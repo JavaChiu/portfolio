@@ -44,13 +44,13 @@
 <?php
   if(!empty($message)){
     if($isSuccess){
-      echo "<div class=\"alert alert-success alert-dismissable\">";
+      echo '<div class="alert alert-success alert-dismissable">';
     }else{
-      echo "<div class=\"alert alert-danger alert-dismissable\">";
+      echo '<div class="alert alert-danger alert-dismissable">';
     }
-    echo "<a href=\"#\" class="close" data-dismiss="alert" aria-label="close">×</a>";
+    echo '<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>';
     echo $message;
-    echo "</div>";
+    echo '</div>';
   }
 ?>
         <div class="col-md-4 pull-right">
