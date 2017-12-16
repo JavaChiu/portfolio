@@ -79,23 +79,23 @@
         <form action="/send_mail.php" method="get">
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="title">Title</label>
-                <input type="text" class="form-control" id="title" placeholder="Title">
+                <input type="text" class="form-control" id="title" name="title" placeholder="Title">
             </div>
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Email">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
             </div>
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="first-name">First Name</label>
-                <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name">
             </div>
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="last-name">Last Name</label>
-                <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
             </div>
             <div class="form-group col-sm-12 col-xs-12">
                 <label for="message">Message</label>
-                <textarea id="message" class="form-control" rows="3" placeholder="Message"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
             </div>
 
             <button type="submit" class="btn btn-default">Send</button>
