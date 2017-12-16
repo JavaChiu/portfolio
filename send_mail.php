@@ -19,6 +19,8 @@ $subject = $_POST['title'];
 $message = $_POST['message'];
 $name = $_POST['first-name']." ".$_POST['last-name'];
 
+echo $eamil;
+
 /*
 echo $email.'<br>';
 echo $subject.'<br>';
@@ -33,14 +35,13 @@ $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
 /*
 echo $from;
-echo '<br>';
+echo "<br>";
 echo $to;
-echo '<br>';
+echo "<br>";
 echo $content;
-echo '<br>';
+echo "<br>";
 echo $subject;
-echo '<br>';
-
+echo "<br>";
 
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
