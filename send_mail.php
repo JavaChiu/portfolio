@@ -19,7 +19,7 @@ $subject = $_POST['title'];
 $message = $_POST['message'];
 $name = $_POST['first-name']." ".$_POST['last-name'];
 
-echo $eamil;
+echo $email;
 
 /*
 echo $email.'<br>';
