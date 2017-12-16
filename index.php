@@ -43,14 +43,16 @@
     <div id="about" class="row text-center">
 <?php
   if(!empty($message)){
+/*
     if($isSuccess){
-    echo "<div class=\"alert alert-success alert-dismissable\">";
+      echo "<div class=\"alert alert-success alert-dismissable\">";
     }else{
-    echo "<div class=\"alert alert-danger alert-dismissable\">";
+      echo "<div class=\"alert alert-danger alert-dismissable\">";
     }
     echo "<a href=\"#\" class="close" data-dismiss="alert" aria-label="close">×</a>";
-    echo "<strong>Warning!</strong> This alert box could indicate a warning that might need attention.";
+    echo $message;
     echo "</div>";
+*/
   }
 ?>
         <div class="col-md-4 pull-right">
