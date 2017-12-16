@@ -76,7 +76,7 @@
     <div id="contact" class="text-center">
         <h2><strong>Contact</strong></h2>
         <hr>
-        <form class="row" action="/send_mail.php" method="post">
+        <form class="row" action="/send_mail.php" method="get">
             <div class="form-group col-sm-6 col-xs-12">
                 <label for="title">Title</label>
                 <input type="text" class="form-control" id="title" placeholder="Title">
