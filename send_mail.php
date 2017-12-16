@@ -41,6 +41,7 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
 }
 
 $index = 'https://powerful-atoll-43424.herokuapp.com/';
+header('Location: '.$index);
 die();
 
 ?> 
