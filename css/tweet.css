@@ -22,6 +22,7 @@ body {
     left: 0px;
     bottom: 0px;
     width: 100%;
+    z-index: -1; --in case that the quote is too long
 }
 
 #footer p {
