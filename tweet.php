@@ -12,7 +12,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
       <script src="./js/tweet.js"></script>
    </head>
-   <body>
+   <body onload="changeQuote()">
       <div id="main" class="container-fluid">
          <h1 class="text-center">Random Quote Machine</h1>
          <div id="card" class="row text-center">
