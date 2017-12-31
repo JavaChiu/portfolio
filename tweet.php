@@ -20,8 +20,8 @@
                <div class="card mb-3">
                   <div class="card-body">
                      <blockquote class="blockquote mb-0">
-                        <p id="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer id="citation" class="blockquote-footer text-right">Someone famous</footer>
+                        <p id="quote"></p>
+                        <footer id="citation" class="blockquote-footer text-right"></footer>
                      </blockquote>
                   </div>
                </div>
