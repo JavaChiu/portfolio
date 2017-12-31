@@ -1,10 +1,15 @@
+body {
+    background-image: url("./img/tweet_background.png");
+}
+
 #main {
-  padding: 20px;
+    padding: 20px;
 }
 
 #card {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
 
 /*
 .card {
@@ -12,23 +17,23 @@
 }
 */
 
-#footer {  
-   position:absolute;
-   left:0px;
-   bottom:0px;
-   width:100%;
+#footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
 }
 
 #footer p {
-  margin: 8px;
+    margin: 8px;
 }
 
 #footer ul {
-  padding: 0px;
-  list-style-type:none;
-  margin: 8px;
+    padding: 0px;
+    list-style-type: none;
+    margin: 8px;
 }
 
 #footer ul li {
-  display: inline-block;
+    display: inline-block;
 }
