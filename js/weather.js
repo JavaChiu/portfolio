@@ -15,11 +15,11 @@ function requestWeather(position) {
             document.getElementById("city").innerHTML = weather.name + ", " + weather.sys.country;
             document.getElementById("description").innerHTML = weather.weather[0].main;
             document.getElementById("degree").innerHTML = (weather.main.temp - 273.15).toFixed(1) + String.fromCharCode(176) + "C";
-            document.getElementById("icon").src = "https://openweathermap.org/img/w/" + weather.weather[0].icon + ".png";
+            document.getElementById("icon").src = "http://openweathermap.org/img/w/" + weather.weather[0].icon + ".png";
             //document.getElementById("citation").innerHTML = weather[0].title;
         }
     };
-    var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&appid=2c036e5e900438c4e810fc0eeb177602";
+    var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&appid=2c036e5e900438c4e810fc0eeb177602";
     xhttp.open("GET", url, true);
     xhttp.send();
 }
