@@ -73,13 +73,15 @@
         <hr>
         <div class="col-sm-6 col-xs-12">
             <a href="./weather.php">
-                <img src="./img/weather_snapshot.png" class="img-responsive" alt="local weather app">
+                <img src="./img/weather_snapshot.png" class="img-responsive" alt="Local Weather App">
             </a>
             <p>Local Weather App</p>
         </div>
         <div class="col-sm-6 col-xs-12">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-            <p>Comming Soon</p>
+            <a href="./tweet.php">
+                <img src="./img/tweet_snapshot.png" class="img-responsive" alt="Random Quote Machine">
+            </a>
+            <p>Random Quote Machine</p>
         </div>
         <div class="col-sm-6 col-xs-12">
             <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
