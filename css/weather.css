@@ -1,7 +1,7 @@
 body {
     background-image: url("../img/pexels-photo-454880.jpeg");
     background-repeat: no-repeat;
-    --background-size: auto;
+    background-size: cover;
 }
 
 h1,
