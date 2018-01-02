@@ -40,7 +40,8 @@ if(($response->statusCode())=='200'||($response->statusCode())=='202'){
 */
 }
 
-$index = 'https://powerful-atoll-43424.herokuapp.com/';
+//$index = 'https://powerful-atoll-43424.herokuapp.com/';
+$index = 'http://www.chunganchiu.com/';
 header('Location: '.$index);
 die();
 
