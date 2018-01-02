@@ -72,7 +72,9 @@
         <h2><strong>Portfolio</strong></h2>
         <hr>
         <div class="col-sm-6 col-xs-12">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
+            <a href="./weather.php">
+                <img src="./img/weather_snapshot" class="img-responsive" alt="local weather app">
+            </a>
             <p>Comming Soon</p>
         </div>
         <div class="col-sm-6 col-xs-12">
