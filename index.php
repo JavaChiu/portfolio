@@ -73,9 +73,9 @@
         <hr>
         <div class="col-sm-6 col-xs-12">
             <a href="./weather.php">
-                <img src="./img/weather_snapshot" class="img-responsive" alt="local weather app">
+                <img src="./img/weather_snapshot.png" class="img-responsive" alt="local weather app">
             </a>
-            <p>Comming Soon</p>
+            <p>Local Weather App</p>
         </div>
         <div class="col-sm-6 col-xs-12">
             <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
