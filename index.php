@@ -72,7 +72,7 @@
         <h2><strong>Portfolio</strong></h2>
         <hr>
         <div class="col-sm-6 col-xs-12">
-            <a href="./weather.php">
+            <a href="https://powerful-atoll-43424.herokuapp.com/tweet.php">
                 <img src="./img/weather_snapshot.png" class="img-responsive" alt="Local Weather App">
             </a>
             <p>Local Weather App</p>
@@ -123,7 +123,7 @@
     </div>
 
     <footer class="container-fluid text-center">
-        <p> Created by <a href="#">Chung-An Chiu</a></p>
+        <p> Created by <a href="http://www.chunganchiu.com/">Chung-An Chiu</a></p>
         <div>
             <ul>
                 <li>

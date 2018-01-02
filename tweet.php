@@ -33,7 +33,7 @@
       </div>
       <footer id="footer" class="container-fluid text-center">
          <hr>
-         <p> Created by <a  href="#">Chung-An Chiu</a></p>
+         <p> Created by <a  href="http://www.chunganchiu.com/">Chung-An Chiu</a></p>
          <div>
             <ul>
                <li><a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/chung-an-chiu-62b030147/" target="_blank">
