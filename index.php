@@ -72,7 +72,7 @@
         <h2><strong>Portfolio</strong></h2>
         <hr>
         <div class="col-sm-6 col-xs-12">
-            <a href="https://powerful-atoll-43424.herokuapp.com/tweet.php">
+            <a href="https://powerful-atoll-43424.herokuapp.com/weather.php">
                 <img src="./img/weather_snapshot.png" class="img-responsive" alt="Local Weather App">
             </a>
             <p>Local Weather App</p>
