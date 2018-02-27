@@ -58,7 +58,7 @@
   unset($_SESSION['is_success']);
 ?>
         <div class="col-md-4 pull-right">
-            <img class="img-fluid img-rounded" src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/62446_546259315414512_1579918889_n.jpg?oh=6d11dedafd8b45f6083319d4dd4b918f&oe=5A8E5F53" alt="profile-picture">
+            <img class="img-fluid img-rounded" src="./img/profile-picture.jpg" alt="profile-picture">
         </div>
         <div>
             <h2><strong>About</strong></h2>
