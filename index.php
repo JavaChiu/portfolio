@@ -83,14 +83,14 @@
             </a>
             <p>Random Quote Machine</p>
         </div>
-        <div class="col-sm-6 col-xs-12 works">
+        <div class="col-sm-6 col-xs-12">
             <a href="https://peaceful-fortress-80870.herokuapp.com/swagger-ui.html#/">
-                <img src="./img/swagger-api.png" class="img-responsive" alt="Image">
+                <img src="./img/swagger-api.png" class="img-responsive works" alt="Image">
             </a>
             <p>Java Spring-boot rest api</p>
         </div>
-        <div class="col-sm-6 col-xs-12 works">
-            <img src="./img/genmo.png" class="img-responsive" alt="Image">
+        <div class="col-sm-6 col-xs-12">
+            <img src="./img/genmo.png" class="img-responsive works" alt="Image">
             <p>Comming Soon</p>
         </div>
     </div>
