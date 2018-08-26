@@ -129,7 +129,7 @@
         <div>
             <ul>
                 <li>
-                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/chung-an-chiu-62b030147/" target="_blank">
+                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/andrew-chung-an-chiu-62b030147/" target="_blank">
                         <span class="fa fa-linkedin"></span>
                     </a>
                 </li>
