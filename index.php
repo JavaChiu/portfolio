@@ -83,7 +83,7 @@
             </a>
             <p>Random Quote Machine</p>
         </div>
-        <div class="col-sm-6 col-xs-12 h-100">
+        <div class="col-sm-6 col-xs-12 works">
             <a href="https://peaceful-fortress-80870.herokuapp.com/swagger-ui.html#/">
                 <img src="./img/swagger-api.png" class="img-responsive" alt="Image">
             </a>
