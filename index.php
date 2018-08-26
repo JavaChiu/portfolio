@@ -90,7 +90,7 @@
             <p>Java Spring-boot rest api</p>
         </div>
         <div class="col-sm-6 col-xs-12">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
+            <img src="./img/genmo.png" class="img-responsive" alt="Image">
             <p>Comming Soon</p>
         </div>
     </div>
