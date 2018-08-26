@@ -85,13 +85,13 @@
         </div>
         <div class="col-sm-6 col-xs-12">
             <a href="https://peaceful-fortress-80870.herokuapp.com/swagger-ui.html#/">
-                <img src="./img/swagger-api.png" class="img-responsive works" alt="Image">
+                <img src="./img/swagger-api.png" class="img-responsive" alt="Image">
             </a>
             <p>Java Spring-boot rest api</p>
         </div>
         <div class="col-sm-6 col-xs-12">
-            <img src="./img/genmo.png" class="img-responsive works" alt="Image">
-            <p>Comming Soon</p>
+            <img src="./img/genmo.png" class="img-responsive" alt="Image">
+            <p>Project Genmo</p>
         </div>
     </div>
 
