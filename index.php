@@ -89,7 +89,7 @@
             </a>
             <p>Java Spring-boot rest api</p>
         </div>
-        <div class="col-sm-6 col-xs-12 h-100">
+        <div class="col-sm-6 col-xs-12 works">
             <img src="./img/genmo.png" class="img-responsive" alt="Image">
             <p>Comming Soon</p>
         </div>
