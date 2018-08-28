@@ -90,7 +90,9 @@
             <p>Java Spring-boot rest api</p>
         </div>
         <div class="col-sm-6 col-xs-12">
-            <img src="./img/genmo.png" class="img-responsive" alt="Image">
+            <a href="https://itunes.apple.com/us/app/genmo/id1347965515?mt=8">
+                <img src="./img/genmo.png" class="img-responsive genmo" alt="Image">
+            </a>
             <p>Project Genmo</p>
         </div>
     </div>
