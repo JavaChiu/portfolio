@@ -68,6 +68,11 @@ nav ul button a:hover {
     width: 100%;
 }
 
+#portfolio iframe {
+    height: 50vh;
+    width: 100%;
+}
+
 #contact {
     background-color: #a06161;
     font-family: Monaco, MonoSpace;
