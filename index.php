@@ -72,13 +72,24 @@
         <h2><strong>Portfolio</strong></h2>
         <hr>
         <div class="col-sm-6 col-xs-12">
-            <iframe src="https://www.youtube.com/embed/tHGMqQLvAbE" encrypted-media" allowfullscreen></iframe>
-            <p>Combination Pad Lock</p>
+<iframe src="https://www.youtube.com/embed/6gohTcGf4Rc" allow="encrypted-media" allowfullscreen></iframe>
+            <p>Mr. Wood and Ms. Flame</p>
         </div>
         <div class="col-sm-6 col-xs-12">
             <iframe src="https://www.youtube.com/embed/tHGMqQLvAbE" allow="encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/6gohTcGf4Rc" allow="encrypted-media" allowfullscreen></iframe>
-            <p>Mr. Wood and Ms. Flame</p>
+            <p>Combination Pad Lock</p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+            <a target="_blank" rel="noopener noreferrer"  href="https://itunes.apple.com/us/app/genmo/id1347965515?mt=8">
+                <img src="./img/genmo.png" class="img-responsive genmo" alt="Image">
+            </a>
+            <p>Project Genmo</p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+            <a href="https://peaceful-fortress-80870.herokuapp.com/swagger-ui.html#/">
+                <img src="./img/swagger-api.png" class="img-responsive" alt="Image">
+            </a>
+            <p>Java Spring-boot rest api</p>
         </div>
         <div class="col-sm-6 col-xs-12">
             <a href="https://powerful-atoll-43424.herokuapp.com/weather.php">
@@ -91,18 +102,6 @@
                 <img src="./img/tweet_snapshot.png" class="img-responsive" alt="Random Quote Machine">
             </a>
             <p>Random Quote Machine</p>
-        </div>
-        <div class="col-sm-6 col-xs-12">
-            <a href="https://peaceful-fortress-80870.herokuapp.com/swagger-ui.html#/">
-                <img src="./img/swagger-api.png" class="img-responsive" alt="Image">
-            </a>
-            <p>Java Spring-boot rest api</p>
-        </div>
-        <div class="col-sm-6 col-xs-12">
-            <a target="_blank" rel="noopener noreferrer"  href="https://itunes.apple.com/us/app/genmo/id1347965515?mt=8">
-                <img src="./img/genmo.png" class="img-responsive genmo" alt="Image">
-            </a>
-            <p>Project Genmo</p>
         </div>
     </div>
 
