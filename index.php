@@ -64,7 +64,7 @@
             <h2><strong>About</strong></h2>
             <hr>
             <p>After joining the workforce for 2 years as a software engineer, I decided to pursue a formal master's degree in Computer Science at the University of Chicago, hoping this is leading my life to a rather more challenging journey.</p>
-            <p>Born and raised in Taipei, Taiwan, I completed my bachelor at National Taiwan University. As a student in the discipline of Entomology(Insect), who later on launched a career in coding, I always tell people that I am a <em>professional bug-dealer</em>.</p>
+            <p>Born and raised in Taipei, Taiwan, I completed my bachelor at National Taiwan University. As a student in the discipline of Entomology(Insect), who later on launched a career in software engineering, I always tell people that I am a <em>professional bug-dealer</em>.</p>
         </div>
     </div>
 
